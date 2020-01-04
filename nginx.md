@@ -50,8 +50,13 @@ enableInsecureLogin: true
 enableSkipLogin: true
 service:
   type: NodeType
+
+rbac:
+  create: true
+  clusterAdminRole: true
+
 ```
-**Note: I just use it in private network, so I did not need tls**
+**Note: I just use it in private network, so I did not need tls, and add clusterAdminRole=true to get all control**
 
 
 
